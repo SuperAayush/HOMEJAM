@@ -1,11 +1,11 @@
 import React from 'react';
 import '../styling/Circle.css'
-import heart from '../images/Vector.png'
-import cart from '../images/cart.png'
+import heart from '../Images/Vector.png'
+import cart from '../Images/cart.png'
 
 const Circle = () => {
   return (
-  <div className="circle"> 
+  <div className="circle">
   <div className="card">
     <div className="content">
     <img className="card-img" src={heart} alt="" />

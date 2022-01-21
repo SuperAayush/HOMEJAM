@@ -1,14 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-import App from './App';
-
+import { Router, Outlet } from 'react-location';
+import {routes, location } from "./router"
 
 ReactDOM.render(
-
-    <App />
- ,
+  <Router routes={routes} location= {location}>
+    <Outlet />
+    </Router>,
   document.getElementById('root')
 );
-
-

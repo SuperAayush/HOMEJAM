@@ -3,8 +3,9 @@ import { makeStyles } from '@material-ui/core/styles';
 import { CssBaseline } from '@material-ui/core';
 import Header from './Components/Header';
 import Title from './Components/Title';
+import Celebs from './Components/Celebs';
 import Circle from './Components/Circle';
-import backimg from './images/backimg.png'
+import backimg from './Images/backimg.png'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -20,10 +21,11 @@ const useStyles = makeStyles((theme) => ({
    background: 'linear-gradient(180deg, rgba(5, 11, 20, 0.28) 0%, rgba(1, 13, 32, 0.69) 67.53%, #0A0B1A 85.33%)',
  },
  stretch : {
-   height :'1000px',
+   height :'2000px',
    background: 'rgba(10, 11, 26, 1)',
  }
 }));
+
 export default function App() {
   const classes = useStyles();
   return (
@@ -34,6 +36,7 @@ export default function App() {
       <Header />
       <Title />
       <Circle />
+      <Celebs/>
       <div className={classes.stretch} />
     </div>
   );

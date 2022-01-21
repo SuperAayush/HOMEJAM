@@ -99,10 +99,10 @@
 }
 
 .card:hover:after {
-    animation: animate2 0.5s linear forwards;
+    animation: animate0 0.5s linear forwards;
 }
 
-@keyframes animate2 {
+@keyframes animate0 {
     0%{
         width:0;
         height:0;
