@@ -1,8 +1,8 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import logo from '../Images/logo.png'
-import search from '../Images/loupe.png'
-import shop from '../Images/shop.png'
+import logo from '../images/logo.png'
+import search from '../images/loupe.png'
+import shop from '../images/shop.png'
 import { Navbar, Container,  Nav } from 'react-bootstrap'; 
 
 const useStyles = makeStyles((theme) => ({
