@@ -32,20 +32,21 @@ logo:{
      marginRight: '20px'
  },
 }));
+
 export default function Header() {
   const classes = useStyles();
   return (
     <Navbar fixed='top' collapseOnSelect expand="lg" bg="none" variant="dark" color="white">
   <Container>
-  <Navbar.Brand href="#home"><img className={classes.logo} src={logo} alt="" /></Navbar.Brand>
+  <Navbar.Brand> <a href="/"><img className={classes.logo} src={logo} alt="" /></a></Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto" />
     <Nav>
-      <Nav.Link href="#deets" className={classes.headerSearch}><img className={classes.search} src={search} alt="" />    Search</Nav.Link>
-      <Nav.Link href="#memes" className={classes.help}> Help </Nav.Link>
-      <Nav.Link href="#memes" className={classes.account}> Account </Nav.Link>
-      <Nav.Link href="#memes"> <img className={classes.shop} src={shop} alt="" /> </Nav.Link>
+      <Nav.Link  className={classes.headerSearch}><img className={classes.search} src={search} alt="" />    Search</Nav.Link>
+      <Nav.Link  className={classes.help}> Help </Nav.Link>
+      <Nav.Link  className={classes.account}> Account </Nav.Link>
+      <Nav.Link > <img className={classes.shop} src={shop} alt="" /> </Nav.Link>
     </Nav>
   </Navbar.Collapse>
   </Container>

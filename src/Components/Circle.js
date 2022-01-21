@@ -5,7 +5,7 @@ import cart from '../Images/cart.png'
 
 const Circle = () => {
   return (
-  <div className="circle"> 
+  <div className="circle">
   <div className="card">
     <div className="content">
     <img className="card-img" src={heart} alt="" />
