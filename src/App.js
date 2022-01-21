@@ -4,7 +4,7 @@ import { CssBaseline } from '@material-ui/core';
 import Header from './Components/Header';
 import Title from './Components/Title';
 import Circle from './Components/Circle';
-import backimg from './images/backimg.png'
+import backimg from './Images/backimg.png'
 
 
 const useStyles = makeStyles((theme) => ({
