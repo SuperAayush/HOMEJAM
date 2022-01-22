@@ -19,7 +19,6 @@ const Celebs = () => {
            <p> View All </p>
       </div>
       </div>
-       <div className="c1" />
         <div className="celeb">
         <span></span>
         <span></span>
@@ -36,7 +35,6 @@ const Celebs = () => {
         </div>
         </div>
         
-         <div className="c2" />
         <div className="celeb">
         <span></span>
         <span></span>
@@ -53,7 +51,6 @@ const Celebs = () => {
         </div>
         </div>
 
-        <div className="c3" />
         <div className="celeb">
         <span></span>
         <span></span>
@@ -70,7 +67,6 @@ const Celebs = () => {
         </div>
         </div>
 
-        <div className="c4" />
         <div className="celeb">
         <span></span>
         <span></span>

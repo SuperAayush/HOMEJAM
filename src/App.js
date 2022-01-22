@@ -5,6 +5,7 @@ import Header from './Components/Header';
 import Title from './Components/Title';
 import Celebs from './Components/Celebs';
 import Circle from './Components/Circle';
+import Carousel from './Components/Carousel';
 import backimg from './Images/backimg.png'
 
 
@@ -21,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
    background: 'linear-gradient(180deg, rgba(5, 11, 20, 0.28) 0%, rgba(1, 13, 32, 0.69) 67.53%, #0A0B1A 85.33%)',
  },
  stretch : {
-   height :'2000px',
+   height :'1500px',
    background: 'rgba(10, 11, 26, 1)',
  }
 }));
@@ -37,6 +38,7 @@ export default function App() {
       <Title />
       <Circle />
       <Celebs/>
+      <Carousel />
       <div className={classes.stretch} />
     </div>
   );
