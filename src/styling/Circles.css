@@ -1,12 +1,12 @@
-.carousel{
-    width:80%;
+.circle{
+    width:83%;
     margin: 0 auto;
     position:absolute;
-    margin-top:900px;
+    margin-top:-235px;
     margin-left:10%;
 }
 
-.underling{
+.circle-underline{
     position:absolute;
     margin-top:-240px;
     height:300px;
@@ -14,7 +14,7 @@
     border-bottom: 3px solid rgba(2, 89, 235, 1);
 }
 
-.carausel-heading{
+.circle-head{
     position:absolute;
     font-size:2.3rem;
     color:#fff;
@@ -22,7 +22,7 @@
     font-family: 'Libre Baskerville', serif;
 }
 
-.slider{
+.circle-slider{
     margin-top: 10px;
     padding-top: 10px;
 }
@@ -31,17 +31,17 @@
     padding-top: 40px;
 }
 
-.left{
+.circle-left{
     background:transparent;
     border:none
 }
 
-.right{
+.circle-right{
     background:transparent;
     border:none
 }
 
-.controls{
+.circle-controls{
     display: flex;
     justify-content: right;
     margin-right: 30px;

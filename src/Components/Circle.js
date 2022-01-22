@@ -1,41 +1,15 @@
 import React from 'react';
-import '../styling/Circle.css'
-import heart from '../Images/Vector.png'
-import cart from '../Images/cart.png'
+import '../styling/Circle.css';
 
-const Circle = () => {
-  return (
-  <div className="circle">
-  <div className="card">
-    <div className="content">
-    <img className="card-img" src={heart} alt="" />
-    <p className="card-number">0</p>
-    <p className="card-label">Label</p>
-  </div>
-  </div>
-  <div className="card">
-    <div className="content">
-    <img className="card-img" src={cart} alt="" />
-    <p className="card-number">0</p>
-    <p className="card-label">Label</p>
-  </div>
-  </div>
-  <div className="card">
-    <div className="content">
-    <img className="card-img" src={cart} alt="" />
-    <p className="card-number">0</p>
-    <p className="card-label">Label</p>
-  </div>
-  </div>
-  <div className="card">
-    <div className="content">
-    <img className="card-img" src={cart} alt="" />
-    <p className="card-number">0</p>
-    <p className="card-label">Label</p>
-  </div>
-  </div>
-  </div>
-  );
-};
 
-export default Circle;
+const Review = ({ imgCard, num, label}) => (
+   <div className="card">
+    <div className="content">
+    <img className="card-img" src={imgCard} alt="" />
+    <p className="card-number">{num}</p>
+    <p className="card-label">{label}</p>
+  </div>
+  </div>
+);
+
+export default Review;
