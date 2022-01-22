@@ -4,8 +4,8 @@ import { CssBaseline } from '@material-ui/core';
 import Header from './Components/Header';
 import Title from './Components/Title';
 import Celebs from './Components/Celebs';
-import Circle from './Components/Circle';
-import Carousel from './Components/Carousel';
+import Circles from './Components/Circles';
+import Reviews from './Components/Reviews';
 import backimg from './Images/backimg.png'
 
 
@@ -36,9 +36,9 @@ export default function App() {
       <CssBaseline />
       <Header />
       <Title />
-      <Circle />
-      <Celebs/>
-      <Carousel />
+      <Circles />
+      <Celebs />
+      <Reviews />
       <div className={classes.stretch} />
     </div>
   );

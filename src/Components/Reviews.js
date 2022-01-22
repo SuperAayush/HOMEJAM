@@ -8,7 +8,7 @@ import r2 from '../Images/r1.png'
 import r3 from '../Images/r2.png'
 import arrow from '../Images/Arrow.png'
 import arrow1 from '../Images/Arrow1.png'
-import '../styling/Carousel.css'
+import '../styling/Reviews.css'
 
 export default function Carousel() {
   // eslint-disable-next-line no-unused-vars

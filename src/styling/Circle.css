@@ -1,27 +1,19 @@
-.circle{
-    display: flex;
-    position: absolute;
-    margin-top: -150px;
-    margin-left:10%;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
 .card-number{
-    font-size:2rem;
-    margin-left: 15%;
-    margin-top: 5px;
+    font-size:1.5rem;
+    margin-left: 16%;
+    margin-top: 15px;
+    font-family: 'Libre Baskerville', serif;
 }
 
 .card-label{
     color:grey;
-    margin-top: -15px;
+    margin-top: -10px;
     margin-left: -5px;
 }
 
 .card-img{
-    margin-left:3%;
     width:30px;
 }
 
@@ -31,6 +23,7 @@
      color:#ffffff;
      width:200px;
      height : 200px;
+     background-color: black;
 } 
 
 .circle .card{
