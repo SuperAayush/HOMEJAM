@@ -64,16 +64,17 @@
     display: flex;
     margin: 10px;
     overflow: hidden;
+    box-shadow: 10px -10px rgba(48, 26, 104, 1);
 }
 
-.celebs .c1{
+/* .celebs .c1{
     position: absolute;
     width:268px;
     height:387px;
     background: linear-gradient(163.41deg, #301A68 0.11%, #234C97 170.69%);
     border-radius: 8px;
     margin-left: -850px;
-    margin-top: -10px;
+    margin-top: -12px;
 }
 
 .celebs .c2{
@@ -83,7 +84,7 @@
     background: linear-gradient(163.41deg, #301A68 0.11%, #234C97 170.69%);
     border-radius: 8px;
     margin-left: -273px;
-    margin-top: -10px;
+    margin-top: -12px;
 }
 
 .celebs .c3{
@@ -93,7 +94,7 @@
     background: linear-gradient(163.41deg, #301A68 0.11%, #234C97 170.69%);
     border-radius: 8px;
     margin-left: 305px;
-    margin-top: -10px;
+    margin-top: -12px;
 }
 
 .celebs .c4{
@@ -103,8 +104,8 @@
     background: linear-gradient(163.41deg, #301A68 0.11%, #234C97 170.69%);
     border-radius: 8px;
     margin-left: 880px;
-    margin-top: -10px;
-}
+    margin-top: -12px;
+} */
 
 .arrow{
     margin-left:10px;

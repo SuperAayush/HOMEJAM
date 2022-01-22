@@ -19,7 +19,6 @@ const Celebs = () => {
            <p> View All </p>
       </div>
       </div>
-       <div className="c1" />
         <div className="celeb">
         <span></span>
         <span></span>
@@ -27,7 +26,7 @@ const Celebs = () => {
         <span></span>
         <div className="cont">
               <img src={pic1} alt="" />
-              <a href="">Folk</a>
+              <a href=" ">Folk</a>
               <p className="names">Benny Dayal</p>
               <div className="bottom-info">
               <p className="info">More Info <img className="arrow" src={arrow} alt="" /></p>
@@ -36,7 +35,6 @@ const Celebs = () => {
         </div>
         </div>
         
-         <div className="c2" />
         <div className="celeb">
         <span></span>
         <span></span>
@@ -44,7 +42,7 @@ const Celebs = () => {
         <span></span>
         <div className="cont">
               <img src={pic2} alt="" />
-              <a href="">Bollywood</a>
+              <a href=" ">Bollywood</a>
               <p className="names">Vijay Yesudas</p>
               <div className="bottom-info">
               <p className="info">More Info <img className="arrow" src={arrow} alt="" /></p>
@@ -53,7 +51,6 @@ const Celebs = () => {
         </div>
         </div>
 
-        <div className="c3" />
         <div className="celeb">
         <span></span>
         <span></span>
@@ -61,7 +58,7 @@ const Celebs = () => {
         <span></span>
         <div className="cont">
               <img src={pic3} alt="" />
-              <a href="">Folk</a>
+              <a href=" ">Folk</a>
               <p className="names">Andrea Jeremiah</p>
               <div className="bottom-info">
               <p className="info">More Info <img className="arrow" src={arrow} alt="" /></p>
@@ -70,7 +67,6 @@ const Celebs = () => {
         </div>
         </div>
 
-        <div className="c4" />
         <div className="celeb">
         <span></span>
         <span></span>
@@ -78,7 +74,7 @@ const Celebs = () => {
         <span></span>
         <div className="cont">
               <img src={pic4} alt="" />
-              <a href="">Folk</a>
+              <a href=" ">Folk</a>
               <p className="names">Shilpa Rao</p>
               <div className="bottom-info">
               <p className="info">More Info <img className="arrow" src={arrow} alt="" /></p>
