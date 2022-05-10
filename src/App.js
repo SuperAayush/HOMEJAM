@@ -12,7 +12,7 @@ import backimg from './Images/backimg.png'
 const useStyles = makeStyles((theme) => ({
   backimg : {
     width:'100%',
-    height:'765px',  
+    height:'800px',  
   },
  gradient: {
    width:'100%',
